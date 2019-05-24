@@ -14,7 +14,12 @@ exports[`Display Component text renders the display 1`] = `
   }
 >
   <p />
-  <img />
+  <div>
+    <img
+      alt="friday meme"
+      src="http://preetkamal.com/wp-content/uploads/2019/03/Friday-Meme-Friday-Is-My-Second.jpg"
+    />
+  </div>
   <p />
 </section>
 `;

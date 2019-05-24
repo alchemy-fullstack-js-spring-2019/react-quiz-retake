@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-import { headerText, footerText } from './TextSelector';
+import TextSelector from './TextSelector';
 import Display from './Display';
 
 export default class Meme extends PureComponent {
@@ -18,9 +18,9 @@ export default class Meme extends PureComponent {
 
     return (
       <div>
-        <Display text={headerText} handleChange={this.handleChange}/>
+        <TextSelector text={headerText} handleChange={this.handleChange}/>
         <img alt="Friday meme">{image}</img>
-        <Display text={footerText} handleChange={this.handleChange}/>
+        <TextSelector text={footerText} handleChange={this.handleChange}/>
       </div>
     );
   }
