@@ -17,8 +17,8 @@ export default class Meme extends PureComponent {
     const { headerText, image, footerText } = this.state;
     return (
       <>
-        <TextSelector name="headerText" text={headerText} handleChange={this.handleChange} />
-        <TextSelector name="image" text={image} handleChange={this.handleChange} />
+        <TextSelector name="headerText" value={headerText} text={headerText} handleChange={this.handleChange} />
+        <TextSelector name="image" value={image} text={image} handleChange={this.handleChange} />
         <TextSelector name="footerText" text={footerText} handleChange={this.handleChange} />
         <Display headerText={headerText} image={image} footerText={footerText} />
       </>
