@@ -7,6 +7,7 @@ function Display({ headerText, footerText, image }) {
         <p>{headerText}</p>
         <img src={image} />
         <p>{footerText}</p>
+        <p>displaystuff</p>
     </>
   );
 }
