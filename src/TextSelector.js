@@ -13,8 +13,8 @@ function TextSelector({ footerText, handleChange }) {
 }
 
 TextSelector.propTypes = {
-  footerText: PropTypes.string.isRequired,
-  handleChange: PropTypes.func.isRequired
+  footerText: PropTypes.string,
+  handleChange: PropTypes.func
 };
 
 export default TextSelector;

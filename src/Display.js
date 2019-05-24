@@ -12,9 +12,9 @@ function Display({ header, image, footerText }) {
 }
 
 Display.propTypes = {
-  header: PropTypes.string.isRequired,
-  image: PropTypes.string.isRequired,
-  footerText: PropTypes.string.isRequired
+  header: PropTypes.string,
+  image: PropTypes.string,
+  footerText: PropTypes.string
 };
 
 export default Display;
