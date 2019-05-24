@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Component Displays footer, image, and header elements 1`] = `
+<div
+  style={
+    Object {
+      "fontFamily": "Impact",
+      "fontSize": "3em",
+      "lineHeight": "0",
+      "textAlign": "center",
+      "textTransform": "uppercase",
+    }
+  }
+>
+  <p />
+  <img
+    style={
+      Object {
+        "width": "600px",
+      }
+    }
+  />
+  <p />
+</div>
+`;
