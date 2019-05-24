@@ -1,0 +1,33 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meme  Renders Meme 1`] = `
+<Fragment>
+  <TextSelector
+    footerText=""
+    handleChange={[Function]}
+    headerText=""
+    img=""
+  />
+  <Display
+    footerText=""
+    headerText=""
+    img=""
+  />
+</Fragment>
+`;
+
+exports[`Meme Renders Meme 1`] = `
+<Fragment>
+  <TextSelector
+    footerText=""
+    handleChange={[Function]}
+    headerText=""
+    img=""
+  />
+  <Display
+    footerText=""
+    headerText=""
+    img=""
+  />
+</Fragment>
+`;

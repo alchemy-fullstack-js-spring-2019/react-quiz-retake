@@ -8,8 +8,8 @@ exports[`Display Renders display 1`] = `
   <img
     style={
       Object {
-        "height": "250px",
-        "width": "250px",
+        "height": "auto",
+        "width": "400px",
       }
     }
   />
