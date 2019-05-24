@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text Input Component renders text selector 1`] = `
+<div>
+  <input
+    name="header"
+    onChange={[Function]}
+    type="text"
+    value="text"
+  />
+  <input
+    name="footer"
+    onChange={[Function]}
+    type="text"
+    value="text"
+  />
+  <input
+    name="image"
+    onChange={[Function]}
+    type="text"
+    value="text"
+  />
+</div>
+`;
