@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`App component renders the app 1`] = `
+<div>
+  <p>
+    what
+  </p>
+  <img
+    src="meme.jpg"
+  />
+  <p>
+    am i doing
+  </p>
+</div>
+`;

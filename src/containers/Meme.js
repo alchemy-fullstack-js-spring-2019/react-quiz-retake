@@ -18,7 +18,7 @@ export default class Meme extends PureComponent {
     return (
       <>
       <TextSelector headerText={headerText} footerText={footerText} image={image} handleChange={this.handleChange} />
-      <Display headerText={headerText} footerText={footerText} image={image} img="../../assets/meme.jpg" />
+      <Display headerText={headerText} footerText={footerText} image={image} />
       </>
     );
   }

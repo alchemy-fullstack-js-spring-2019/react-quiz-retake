@@ -5,7 +5,7 @@ function Display({ headerText, footerText, image }) {
   return (
     <div>
       <p>{headerText}</p>
-      <img name="image" value="image" src={image}></img>
+      <img src={image}></img>
       <p>{footerText}</p>
     </div>
   );
