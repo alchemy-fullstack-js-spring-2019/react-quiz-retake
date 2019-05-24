@@ -16,4 +16,6 @@ TextSelector.propTypes = {
   image: PropTypes.string.isRequired,
   footerText: PropTypes.string.isRequired,
   handleChange: PropTypes.func.isRequired
-}
+};
+
+export default TextSelector;
