@@ -3,7 +3,7 @@ import { shallow } from 'enzyme';
 import TextSelector from './TextSelector';
 
 describe('TextSelector Component', () => {
-  it('TextSelectors footer, image, and header elements', () => {
+  it('TextSelectors working', () => {
     const wrapper = shallow(<TextSelector />);
     expect(wrapper).toMatchSnapshot();
   });

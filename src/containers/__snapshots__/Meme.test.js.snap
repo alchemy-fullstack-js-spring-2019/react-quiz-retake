@@ -1,0 +1,17 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meme Component Memes show me the meme 1`] = `
+<Fragment>
+  <TextSelector
+    footer="strings"
+    handleChange={[Function]}
+    header="billy"
+    image="https://s3-us-east-2.amazonaws.com/tattoo-media/wp-content/uploads/2018/10/22135523/billy-strings1.jpg"
+  />
+  <Display
+    footer="strings"
+    header="billy"
+    image="https://s3-us-east-2.amazonaws.com/tattoo-media/wp-content/uploads/2018/10/22135523/billy-strings1.jpg"
+  />
+</Fragment>
+`;

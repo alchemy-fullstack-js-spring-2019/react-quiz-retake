@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextSelector Component TextSelectors footer, image, and header elements 1`] = `
+exports[`TextSelector Component TextSelectors working 1`] = `
 <div
   style={
     Object {
