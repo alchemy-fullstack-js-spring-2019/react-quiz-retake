@@ -5,7 +5,7 @@ function Display({ headerText, image, footerText }) {
   return (
     <div>
       <p>{headerText}</p>
-      <img src={image}></img>
+      <img src={image || 'https://images.ecosia.org/An2PbD_aWxo5_5lkuaiDNB7sl-s=/0x390/smart/http%3A%2F%2Fi0.kym-cdn.com%2Fphotos%2Fimages%2Foriginal%2F001%2F178%2F872%2F3f4.jpg'}></img>
       <p>{footerText}</p>
     </div>
   );

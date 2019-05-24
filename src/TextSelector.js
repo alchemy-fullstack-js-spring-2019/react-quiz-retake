@@ -5,16 +5,17 @@ function TextSelector({ footerText, image, headerText, handleChange }) {
   return (
     <>
       <input 
-      name="headerText"
-      type="text"
-      value={headerText}
-      onChange={handleChange}
+        name="headerText"
+        type="text"
+        value={headerText}
+        onChange={handleChange}
       />
       <input 
-      name="image"
-      type="text"
-      value={image}
-      onChange={handleChange}
+        name="image"
+        type="text"
+        value={image}
+        placeholder="Insert Image URL Here"
+        onChange={handleChange}
       />
       <input 
         name="footerText"
