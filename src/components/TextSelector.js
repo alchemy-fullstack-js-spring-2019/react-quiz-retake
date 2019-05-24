@@ -3,10 +3,12 @@ import PropTypes from 'prop-types';
 
 function TextSelector({ header, image, footer, handleChange }) {
   return (
-    <div style={{ textAlign: 'center' }}>
-      <input name="header" value={header} onChange={handleChange} />
-      <input name="image" value={image} onChange={handleChange} />
-      <input name="footer" value={footer} onChange={handleChange} />
+    <div style={{ 
+      textAlign: 'center',
+    }}>
+      <input name="header" value={header} onChange={handleChange} style={{ margin: '5px' }} />
+      <input name="image" value={image} onChange={handleChange} style={{ margin: '5px' }} />
+      <input name="footer" value={footer} onChange={handleChange} style={{ margin: '5px' }} />
     </div>
   );
 }
