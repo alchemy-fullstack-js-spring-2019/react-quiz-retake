@@ -11,16 +11,16 @@ export default class TextFormatter extends PureComponent {
     image: ''
   };
 
-    handleChange = ({ target }) => {
-      this.setState({ [target.name]: target.value });
-    }
+  handleChange = ({ target }) => {
+    this.setState({ [target.name]: target.value });
+  }
 
-    render() {
-      return (
-        <>
-          <TextSelector state={this.state} handleChange={this.handleChange} />
-          <Display meme={this.state} />
-        </>
-      );
-    }
+  render() {
+    return (
+      <>
+        <TextSelector state={this.state} handleChange={this.handleChange} />
+        <Display meme={this.state} />
+      </>
+    );
+  }
 }
