@@ -1,12 +1,12 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function TextSelector({ headerText, footerText, image, handleChange }) {
+function TextSelector({ headerText, image, footerText, handleChange }) {
   return (
     <>
-    Header: <input name="headerText" type="text" value={headerText} onChange={handleChange} />
-    Image: <input name="image" type="text" value={image} onChange={handleChange} />
-    footerText: <input name="image" type="text" value={footerText} onChange={handleChange} />
+    Header: <input name="headerText" type="text" value={headerText} onChange={handleChange}/>
+    Image: <input name="image" type="text" value={image} onChange={handleChange}/>
+    Footer: <input name="footerText" type="text" value={footerText} onChange={handleChange}/>
     </> 
   );
 }

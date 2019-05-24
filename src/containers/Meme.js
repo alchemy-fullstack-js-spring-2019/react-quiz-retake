@@ -10,7 +10,7 @@ export default class Meme extends PureComponent {
   }
 
   handleChange = ({ target }) => {
-    ({ [target.name]: target.value });
+    this.setState({ [target.name]: target.value });
   }
 
   render() {
@@ -18,7 +18,7 @@ export default class Meme extends PureComponent {
 
     return (
       <>
-      <TextSelector headerText={headerText} footerText={footerText} image={image} handleChange={handleChange} />
+      <TextSelector headerText={headerText} footerText={footerText} image={image} handleChange={this.handleChange} />
       <Display headerText={headerText} footerText={footerText} image={image} />
       </>
     );
