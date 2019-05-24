@@ -1,12 +1,11 @@
-import React, { PureComponent } from 'react';
-import PropType from 'prop-types';
+import React, { Component } from 'react';
 import TextSelector from '';
 import Display from '';
 
-export default class Meme extends PureComponent {
+export default class Meme extends Component {
   state = {
-    header: 'Meme Generator',
-    image: 'https://images.ecosia.org/An2PbD_aWxo5_5lkuaiDNB7sl-s=/0x390/smart/http%3A%2F%2Fi0.kym-cdn.com%2Fphotos%2Fimages%2Foriginal%2F001%2F178%2F872%2F3f4.jpg',
+    header: '',
+    image: '',
     footerText: ''
   }
   
@@ -31,7 +30,6 @@ export default class Meme extends PureComponent {
     );
   }
 }
-
 
 // Container component
 // contains state

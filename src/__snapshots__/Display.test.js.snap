@@ -1,0 +1,9 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`display component renders the image, header and footer 1`] = `
+<div>
+  <p />
+  <img />
+  <p />
+</div>
+`;

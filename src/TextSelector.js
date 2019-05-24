@@ -22,4 +22,3 @@ export default TextSelector;
 // Container component
 // contains state
 // Uses the other components
-
