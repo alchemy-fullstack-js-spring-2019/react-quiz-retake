@@ -1,14 +1,20 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function TextSelector({ text, handleChange }) {
+function TextSelector({ headerText, footerText, image, handleChange }) {
   return (
-    <input name="text" type="text" value={text} onChange={handleChange} />
+    <>
+      <input name="headerText" type="text" value={headerText} onChange={handleChange} />
+      <input name="footerText" type="text" value={footerText} onChange={handleChange} />
+      <input name="image" type="text" value={image} onChange={handleChange} />
+    </>
   );
 }
 
 TextSelector.propTypes = {
-  text: PropTypes.string.isRequired,
+  headerText: PropTypes.string.isRequired,
+  footerText: PropTypes.string.isRequired,
+  image: PropTypes.string.isRequired,
   handleChange: PropTypes.func.isRequired
 };
 
