@@ -22,6 +22,5 @@ export default class Meme extends PureComponent {
       <Display headerText={headerText} footerText={footerText} image={image}/>
       </>
     );
-
   }
 }
