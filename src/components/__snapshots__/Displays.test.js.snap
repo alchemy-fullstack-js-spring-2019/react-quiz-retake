@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Displays Component displays stuffssssssss 1`] = `
+<ul>
+  <li
+    key="0"
+  >
+    <Display
+      footerText="text"
+      headerText="text"
+      image="text"
+    />
+  </li>
+</ul>
+`;
