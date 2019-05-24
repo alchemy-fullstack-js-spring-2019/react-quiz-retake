@@ -4,8 +4,8 @@ import Display from './Display';
 
 export default class Meme extends PureComponent {
   state= {
-    headerText: '',
-    image: '',
+    headerText: 'header',
+    image: 'https://loremflickr.com/320/240/dog',
     footerText: 'ender'
   }
 
