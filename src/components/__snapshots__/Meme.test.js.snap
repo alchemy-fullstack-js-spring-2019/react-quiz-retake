@@ -2,7 +2,7 @@
 
 exports[`Display Component text renders the display 1`] = `
 <div>
-  <Component
+  <Display
     handleChange={[Function]}
     text=""
   />
@@ -11,7 +11,7 @@ exports[`Display Component text renders the display 1`] = `
   >
     https://www.google.com/url?sa=i&source=images&cd=&ved=2ahUKEwiCuJHzzLTiAhXnh1QKHa3BDekQjRx6BAgBEAU&url=https%3A%2F%2Fpreetkamal.com%2F34-very-funny-friday-meme-that-definitely-make-you-smile%2F&psig=AOvVaw2g6JAuHhQLAZoPQR0AcXCa&ust=1558802213391446
   </img>
-  <Component
+  <Display
     handleChange={[Function]}
     text=""
   />
