@@ -10,7 +10,7 @@ function TextSelector({ text, bottomText, image, handleChange }) {
   return (
     <>
       <input name="text" value={text} onChange={handleChange} />
-      <input style={imageStyle} name="image" type="file" value={image} onChange={handleChange} />
+      <input name="image" type="text" value={image} onChange={handleChange} />
       <input name="bottomText" value={bottomText} onChange={handleChange} />
     </>
   );
