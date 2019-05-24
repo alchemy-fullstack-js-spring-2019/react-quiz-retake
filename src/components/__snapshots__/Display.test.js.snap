@@ -1,19 +1,15 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`app component renders the app 1`] = `
-<Fragment>
-  <h1>
-    Make yer Meme
-  </h1>
-  <Meme />
-</Fragment>
-`;
-
 exports[`display component renders the display 1`] = `
 <div
   style={
     Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+      "fontSize": "1.5em",
       "height": "200px",
+      "marginLeft": "30px",
       "width": "200px",
     }
   }

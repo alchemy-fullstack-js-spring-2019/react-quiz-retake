@@ -5,32 +5,34 @@ exports[`TextSelector component renders the TextSelector 1`] = `
   Header: 
   <input
     name="headerText"
+    style={
+      Object {
+        "margin": "10px",
+      }
+    }
     type="text"
   />
+  <br />
   Image: 
   <input
     name="image"
+    style={
+      Object {
+        "margin": "10px",
+      }
+    }
     type="text"
   />
+  <br />
   Footer: 
   <input
     name="footerText"
+    style={
+      Object {
+        "margin": "10px",
+      }
+    }
     type="text"
   />
 </Fragment>
-`;
-
-exports[`display component renders the display 1`] = `
-<div
-  style={
-    Object {
-      "height": "200px",
-      "width": "200px",
-    }
-  }
->
-  <p />
-  <img />
-  <p />
-</div>
 `;
