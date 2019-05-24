@@ -1,10 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextSelector Works? 1`] = `
-<input
-  name="text"
-  onChange={[Function]}
-  type="text"
-  value=""
-/>
+exports[`TextSelector Renders text 1`] = `
+<Fragment>
+  <input
+    name="headerText"
+    type="text"
+  />
+  <input
+    name="footerText"
+    type="text"
+  />
+</Fragment>
 `;

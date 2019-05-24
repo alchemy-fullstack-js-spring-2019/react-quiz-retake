@@ -1,19 +1,18 @@
 import React, { PureComponent } from 'react';
 import PropTypes from 'prop-types';
 
-function TextSelector({ text, handleChange }) {
+function TextSelector({ headerText, footerText, handleChange }) {
   return (
-    <input
-    name="text"
-    type="text"
-    value={text}
-    onChange={handleChange}
-    />
+    <>
+      <input name="headerText" type="text" value={headerText} onChange={handleChange} />
+      <input name="footerText" type="text" value={footerText} onChange={handleChange} />
+    </>
   );
 }
 
 TextSelector.propTypes = {
-  text: PropTypes.string.isRequired,
+  headerText: PropTypes.string.isRequired,
+  footerText: PropTypes.string.isRequired,
   handleChange: PropTypes.string.isRequired
 };
 
