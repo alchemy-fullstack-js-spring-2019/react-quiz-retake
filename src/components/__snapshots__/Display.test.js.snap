@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`display tests renders the display 1`] = `
+<section
+  style={
+    Object {
+      "alignItems": "center",
+      "display": "flex",
+      "flexDirection": "column",
+    }
+  }
+>
+  <h1>
+    heck
+  </h1>
+  <img
+    src="www.test.com"
+    style={
+      Object {
+        "width": "400px",
+      }
+    }
+  />
+  <h1>
+    yes
+  </h1>
+</section>
+`;
