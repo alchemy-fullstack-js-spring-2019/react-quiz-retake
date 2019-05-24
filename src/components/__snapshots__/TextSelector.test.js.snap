@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component renders a TextSelector 1`] = `
+<Fragment>
+  <input
+    name="headerText"
+    onChange={[Function]}
+    type="text"
+    value="hello"
+  />
+  <input
+    name="footerText"
+    onChange={[Function]}
+    type="text"
+    value="goodbye"
+  />
+  <input
+    name="image"
+    onChange={[Function]}
+    type="text"
+    value="/img"
+  />
+</Fragment>
+`;
