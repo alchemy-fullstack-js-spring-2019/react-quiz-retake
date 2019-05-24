@@ -1,5 +1,6 @@
 import React from 'react';
+import Display from './Display';
 
 export default function App() {
-  return <h1>i&apos;ll be a meme one day</h1>;
+  return <Display headerText="yo" footerText="sup" image="https://njmom.com/wp-content/uploads/2019/01/iStock-532529153.jpg"/>;
 }
