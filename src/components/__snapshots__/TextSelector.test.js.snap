@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector component renders the TextSelector 1`] = `
+<Fragment>
+  Header: 
+  <input
+    name="headerText"
+    type="text"
+  />
+  Image: 
+  <input
+    name="image"
+    type="text"
+  />
+  Footer: 
+  <input
+    name="footerText"
+    type="text"
+  />
+</Fragment>
+`;
+
+exports[`display component renders the display 1`] = `
+<div
+  style={
+    Object {
+      "height": "200px",
+      "width": "200px",
+    }
+  }
+>
+  <p />
+  <img />
+  <p />
+</div>
+`;
