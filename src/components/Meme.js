@@ -4,9 +4,9 @@ import Display from './Display';
 
 export default class Meme extends PureComponent {
   state= {
-    headerText: 'header',
+    headerText: 'hard header',
     image: 'https://loremflickr.com/320/240/dog',
-    footerText: 'ender'
+    footerText: 'hard footer'
   }
 
   handleChange = ({ target }) => {
@@ -16,6 +16,7 @@ export default class Meme extends PureComponent {
   render() {
     const { headerText, image, footerText } = this.state;
     return (
+      //here I'm not getting the data to go to the right places. 
       <>
         <TextSelector name="headerText" value={headerText} text={headerText} handleChange={this.handleChange} />
         <TextSelector name="image" value={image} text={image} handleChange={this.handleChange} />
