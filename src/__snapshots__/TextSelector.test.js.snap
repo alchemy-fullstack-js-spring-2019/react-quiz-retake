@@ -8,6 +8,7 @@ exports[`text selector component handles text input 1`] = `
   />
   <input
     name="image"
+    placeholder="Insert Image URL Here"
     type="text"
   />
   <input

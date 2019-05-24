@@ -6,25 +6,17 @@ exports[`meme component renders a meme 1`] = `
     footerText="Enter Your Meme Here"
     handleChange={[Function]}
     headerText="Header Here, Image URL ->"
-    image="Insert Image URL Here"
+    image=""
   />
   <Display
     footerText="Enter Your Meme Here"
     headerText="Header Here, Image URL ->"
-    image="Insert Image URL Here"
+    image=""
   />
   <p>
-    Some Example Image URLs: 
+    Some More Example Image URLs: 
   </p>
   <ul>
-    <li>
-      <h5>
-        https://images.ecosia.org/An2PbD_aWxo5_5lkuaiDNB7sl-s=/0x390/smart/http%3A%2F%2Fi0.kym-cdn.com%2Fphotos%2Fimages%2Foriginal%2F001%2F178%2F872%2F3f4.jpg
-      </h5>
-      <img
-        src="https://images.ecosia.org/An2PbD_aWxo5_5lkuaiDNB7sl-s=/0x390/smart/http%3A%2F%2Fi0.kym-cdn.com%2Fphotos%2Fimages%2Foriginal%2F001%2F178%2F872%2F3f4.jpg"
-      />
-    </li>
     <li>
       <h5>
         https://tse3.mm.bing.net/th?id=OIP.wNzLFdJrS4WEijtMkpZhFAAAAA&pid=Api
