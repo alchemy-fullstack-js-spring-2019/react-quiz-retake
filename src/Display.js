@@ -1,10 +1,10 @@
 import React from 'react';
 import PropTypes from 'prop-types';
 
-function Display({ header, image, footerText }) {
+function Display({ headerText, image, footerText }) {
   return (
     <div>
-      <p>{header}</p>
+      <p>{headerText}</p>
       <img src={image}></img>
       <p>{footerText}</p>
     </div>
@@ -12,7 +12,7 @@ function Display({ header, image, footerText }) {
 }
 
 Display.propTypes = {
-  header: PropTypes.string,
+  headerText: PropTypes.string,
   image: PropTypes.string,
   footerText: PropTypes.string
 };

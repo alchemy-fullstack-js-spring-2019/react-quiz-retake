@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`header component allows input of header text 1`] = `
+<input
+  name="headerText"
+  type="text"
+/>
+`;
