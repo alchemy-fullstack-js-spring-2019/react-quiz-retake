@@ -3,16 +3,14 @@
 exports[`Text Input Component renders text selector 1`] = `
 <div>
   <input
-    name="header"
+    name="headerText"
     onChange={[Function]}
     type="text"
-    value="text"
   />
   <input
-    name="footer"
+    name="footerText"
     onChange={[Function]}
     type="text"
-    value="text"
   />
   <input
     name="image"

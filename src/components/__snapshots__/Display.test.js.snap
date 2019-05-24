@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Component displays stuff! 1`] = `
+<div>
+  <p>
+    text
+  </p>
+  <img
+    alt="meme image"
+    src="text"
+  />
+  <p>
+    text
+  </p>
+</div>
+`;
