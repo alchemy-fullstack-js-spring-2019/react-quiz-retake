@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Component text renders the display 1`] = `
+<section
+  style={
+    Object {
+      "footerText": undefined,
+      "headerText": undefined,
+      "height": "300px",
+      "image": undefined,
+      "margin": "20px",
+      "width": "300px",
+    }
+  }
+>
+  <p />
+  <img />
+  <p />
+</section>
+`;

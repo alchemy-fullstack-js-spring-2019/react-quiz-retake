@@ -1,6 +1,6 @@
 import React from 'react';
-import Display from './Display';
+import Meme from './Meme';
 
 export default function App() {
-  return <Display />;
+  return <Meme />;
 }

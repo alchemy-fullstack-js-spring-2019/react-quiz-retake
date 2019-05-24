@@ -1,0 +1,26 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Component text renders the display 1`] = `
+<Fragment>
+  <label
+    htmlFor="headerText-input"
+  >
+    Type something for the Header here: 
+  </label>
+  <input
+    id="headerText-input"
+    name="header-text"
+    type="text"
+  />
+  <label
+    htmlFor="footerText-input"
+  >
+    Type something for the footer: 
+  </label>
+  <input
+    id="footerText-input"
+    name="footer-text"
+    type="text"
+  />
+</Fragment>
+`;
