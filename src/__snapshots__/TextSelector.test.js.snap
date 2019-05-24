@@ -1,0 +1,8 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text selector component handles text input 1`] = `
+<input
+  name="footerText"
+  type="text"
+/>
+`;
