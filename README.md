@@ -3,7 +3,7 @@
 ## Components
 
 * `App.js`
-  * Uses `NameTag`
+  * Uses `Meme`
 * `Meme.js`
   * Container component
   * contains state
