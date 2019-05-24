@@ -4,11 +4,20 @@ exports[`TextSelector Renders text 1`] = `
 <Fragment>
   <input
     name="headerText"
+    onChange={[Function]}
+    type="text"
+    value="ugh"
+  />
+  <input
+    name="img"
+    onChange={[Function]}
     type="text"
   />
   <input
     name="footerText"
+    onChange={[Function]}
     type="text"
+    value="yikes"
   />
 </Fragment>
 `;

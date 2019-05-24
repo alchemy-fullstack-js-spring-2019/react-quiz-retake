@@ -10,7 +10,7 @@ export default class Meme extends PureComponent {
   };
 
   handleChange = ({ target }) => {
-    this.setState({ target: value });
+    this.setState({ [target.name]: target.value });
   }
 
   render () {
