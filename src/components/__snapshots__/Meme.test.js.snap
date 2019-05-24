@@ -1,0 +1,16 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meme component displays a meme 1`] = `
+<Fragment>
+  <TextSelector
+    handleFooterChange={[Function]}
+    handleHeaderChange={[Function]}
+    handleImageSrcChange={[Function]}
+  />
+  <Display
+    footerText=""
+    headerText=""
+    imageSrc=""
+  />
+</Fragment>
+`;

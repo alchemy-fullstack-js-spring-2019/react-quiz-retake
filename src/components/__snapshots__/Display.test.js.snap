@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component displays the meme 1`] = `
+<section>
+  <p>
+    hello
+  </p>
+  <img
+    src="blah"
+  />
+  <p>
+    good friend
+  </p>
+</section>
+`;
