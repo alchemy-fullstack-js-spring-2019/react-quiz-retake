@@ -4,9 +4,9 @@ import TextSelector from '../components/TextSelector';
 
 export default class Meme extends PureComponent {
   state = {
-    headerText: '',
-    footerText: '',
-    image: ''
+    headerText: 'Make a',
+    footerText: 'cool meme!',
+    image: 'https://njmom.com/wp-content/uploads/2019/01/iStock-532529153.jpg'
   }
 
   handleChange = ({ target }) => {

@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Text selector Component renders the text selector 1`] = `
+<Fragment>
+  <label
+    htmlFor="headerText"
+  >
+    Meme Header:
+  </label>
+  <input
+    name="headerText"
+    type="text"
+    value="cool"
+  />
+  <label
+    htmlFor="footerText"
+  >
+    Meme Footer:
+  </label>
+  <input
+    name="footerText"
+    type="text"
+    value="meme"
+  />
+  <label
+    htmlFor="image"
+  >
+    Image URL:
+  </label>
+  <input
+    name="image"
+    type="text"
+    value="meme.jpg"
+  />
+</Fragment>
+`;

@@ -1,0 +1,22 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono&display=swap');
+
+body {
+  text-align: center;
+}
+
+img {
+  width: 50vw;
+  height: auto;
+}
+
+p {
+  text-transform: uppercase;
+  margin: .2em;
+  font-size: 4em;
+  font-family: 'Roboto Mono', monospace;
+  letter-spacing: .1em;
+}
+
+input {
+  margin: .4em;
+}
