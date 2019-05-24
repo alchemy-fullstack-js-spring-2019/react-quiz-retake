@@ -10,7 +10,6 @@ function TextSelector({ changeHandler, headerText, footerText, imgSource }){
       <input name="imgSource" type="text" value={imgSource} onChange={changeHandler} />
       <span>Enter Footer Text</span>
       <input name="footerText" type="text" value={footerText} onChange={changeHandler} />
-      <button>Generate Meme</button>
     </>
   );
 }
@@ -20,7 +19,6 @@ TextSelector.propTypes = {
   imgSource: PropTypes.string.isRequired,
   footerText: PropTypes.string.isRequired,
   changeHandler: PropTypes.func.isRequired,
-  // submitHandler: PropTypes.func.isRequired
 };
 
 export default TextSelector;
