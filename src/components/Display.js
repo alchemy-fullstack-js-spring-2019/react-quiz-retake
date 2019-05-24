@@ -12,9 +12,9 @@ function Display({ header, image, footer }) {
 
   return (
     <div style={styles}>
-      <p>hi</p>
-      <img src="https://s3-us-east-2.amazonaws.com/tattoo-media/wp-content/uploads/2018/10/22135523/billy-strings1.jpg" style={{ width: '600px' }} />
-      <p>bye</p>
+      <p>{header}</p>
+      <img src={image} style={{ width: '600px' }} />
+      <p>{footer}</p>
     </div>
   );
 }

@@ -4,9 +4,9 @@ import Display from '../components/Display';
 
 export default class Meme extends PureComponent {
   state = {
-    header: '',
-    image: '',
-    footer: ''
+    header: 'billy',
+    image: 'https://s3-us-east-2.amazonaws.com/tattoo-media/wp-content/uploads/2018/10/22135523/billy-strings1.jpg',
+    footer: 'strings'
   };
 
   handleChange = ({ target }) => {
@@ -17,7 +17,7 @@ export default class Meme extends PureComponent {
     const { header, image, footer } = this.state;
 
     return (
-      <Display />
+      <Display header={header} image={image} footer={footer} />
     );
   }
 }
