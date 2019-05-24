@@ -1,7 +1,8 @@
 import React from 'react';
+import Meme from '../containers/Meme';
 
 export default function App() {
   return (
-    <h1>hi</h1>
+    <Meme />
   );
 }
