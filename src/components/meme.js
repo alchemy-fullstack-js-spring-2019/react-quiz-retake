@@ -1,5 +1,5 @@
 import React, { PureComponent } from 'react';
-
+import Display from './Display';
 export default class Meme extends PureComponent {
     state = {
       image: [],
@@ -11,9 +11,8 @@ export default class Meme extends PureComponent {
 
       return ( 
         <>
-        <p2>Header</p2>
-        <p2>Footer</p2>
-        <p2>Image</p2>
+        <p2>TextSelector</p2>
+        <Display />
         </>
       );
     }
