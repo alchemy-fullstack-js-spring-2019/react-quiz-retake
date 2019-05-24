@@ -3,8 +3,13 @@ import PropTypes from 'prop-types';
 
 function Display({ headerText, footerText, image }) {
   const styling = {
+    display: 'flex',
+    flexDirection: 'column',
+    alignItems: 'center',
     width: '200px',
     height: '200px',
+    fontSize: '1.5em',
+    marginLeft: '30px'
   };
 
   return (
