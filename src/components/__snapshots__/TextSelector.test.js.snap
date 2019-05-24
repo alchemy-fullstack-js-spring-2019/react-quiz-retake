@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text selector snapshot renders textselector 1`] = `
+<Fragment>
+  <input
+    name="text"
+    onChange={[Function]}
+    value="hello"
+  />
+  <input
+    name="image"
+    onChange={[Function]}
+    style={
+      Object {
+        "display": "block",
+        "height": "250px",
+        "width": "250px",
+      }
+    }
+    type="file"
+    value="/image"
+  />
+  <input
+    name="bottomText"
+    onChange={[Function]}
+    value="there"
+  />
+</Fragment>
+`;

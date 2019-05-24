@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`text selector snapshot renders textselector 1`] = `
+<div
+  style={
+    Object {
+      "height": "100px",
+      "width": "100px",
+    }
+  }
+>
+  <p>
+    hello
+  </p>
+  <img
+    src="/image"
+  />
+  <p>
+    there
+  </p>
+</div>
+`;
