@@ -4,15 +4,27 @@ exports[`Display Component Displays footer, image, and header elements 1`] = `
 <div
   style={
     Object {
+      "bottom": "50px",
+      "color": "#FFFFFF",
       "fontFamily": "Impact",
-      "fontSize": "3em",
+      "fontSize": "4em",
+      "letterSpacing": ".03em",
       "lineHeight": "0",
+      "position": "relative",
       "textAlign": "center",
       "textTransform": "uppercase",
     }
   }
 >
-  <p />
+  <p
+    style={
+      Object {
+        "position": "relative",
+        "textShadow": "-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000",
+        "top": "100px",
+      }
+    }
+  />
   <img
     style={
       Object {
@@ -20,6 +32,14 @@ exports[`Display Component Displays footer, image, and header elements 1`] = `
       }
     }
   />
-  <p />
+  <p
+    style={
+      Object {
+        "bottom": "100px",
+        "position": "relative",
+        "textShadow": "-2px -2px 0 #000, 2px -2px 0 #000, -2px 2px 0 #000, 2px 2px 0 #000",
+      }
+    }
+  />
 </div>
 `;
