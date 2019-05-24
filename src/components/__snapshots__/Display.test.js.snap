@@ -1,0 +1,20 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display Display 1`] = `
+<Fragment>
+  <p>
+    hi
+  </p>
+  <img
+    src="./image"
+    styles={
+      Object {
+        "width": "100px",
+      }
+    }
+  />
+  <p>
+    hello
+  </p>
+</Fragment>
+`;

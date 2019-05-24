@@ -1,0 +1,27 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector TextSelector 1`] = `
+<Fragment>
+  <input
+    name="headerText"
+    onChange={[MockFunction]}
+    placeholder="Header Text"
+    type="text"
+    value="hi"
+  />
+  <input
+    name="image"
+    onChange={[MockFunction]}
+    placeholder="image url"
+    type="text"
+    value="./image"
+  />
+  <input
+    name="footerText"
+    onChange={[MockFunction]}
+    placeholder="Footer Text"
+    type="text"
+    value="hello"
+  />
+</Fragment>
+`;
