@@ -1,0 +1,36 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextSelector Component TextSelectors footer, image, and header elements 1`] = `
+<div
+  style={
+    Object {
+      "textAlign": "center",
+    }
+  }
+>
+  <input
+    name="header"
+    style={
+      Object {
+        "margin": "5px",
+      }
+    }
+  />
+  <input
+    name="image"
+    style={
+      Object {
+        "margin": "5px",
+      }
+    }
+  />
+  <input
+    name="footer"
+    style={
+      Object {
+        "margin": "5px",
+      }
+    }
+  />
+</div>
+`;
