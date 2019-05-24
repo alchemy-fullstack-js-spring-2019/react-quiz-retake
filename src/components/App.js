@@ -1,10 +1,10 @@
 import React from 'react';
-import Meme from '../container/Meme';
+import MemeList from '../container/MemeList';
 
 export default function App() {
   return(
     <>
-    <Meme />
+    <MemeList />
     </>
   )
 }
