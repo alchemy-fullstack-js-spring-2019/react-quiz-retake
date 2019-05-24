@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`meme display component renders a meme display 1`] = `
+<Fragment>
+  <br />
+  <h2>
+    hi
+  </h2>
+  <br />
+  <img
+    src="blue"
+    style={
+      Object {
+        "width": "40vw",
+      }
+    }
+  />
+  <br />
+  <h2>
+    test
+  </h2>
+</Fragment>
+`;
