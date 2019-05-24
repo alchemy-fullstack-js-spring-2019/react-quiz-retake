@@ -12,7 +12,7 @@ function Displays({ memes }) {
   });
 
   return (
-    <ul>
+    <ul style={{ listStyle: 'none' }}>
       {memeList}
     </ul>
   );
