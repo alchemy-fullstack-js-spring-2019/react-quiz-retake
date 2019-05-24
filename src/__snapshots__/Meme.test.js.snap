@@ -5,12 +5,12 @@ exports[`meme component renders a meme 1`] = `
   <TextSelector
     footerText="Enter Your Meme Here"
     handleChange={[Function]}
-    headerText="Header Here, Image URL ->"
+    headerText="Enter Your Header Here"
     image=""
   />
   <Display
     footerText="Enter Your Meme Here"
-    headerText="Header Here, Image URL ->"
+    headerText="Enter Your Header Here"
     image=""
   />
   <p>

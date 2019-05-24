@@ -4,7 +4,7 @@ import Display from './Display';
 
 export default class Meme extends Component {
   state = {
-    headerText: 'Header Here, Image URL ->',
+    headerText: 'Enter Your Header Here',
     image: '',
     footerText: 'Enter Your Meme Here'
   }
