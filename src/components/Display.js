@@ -3,8 +3,8 @@ import PropTypes from 'prop-types';
 
 function Display({ headerText, footerText, img }) {
   const imgStyle = {
-    width: '250px',
-    height: '250px'
+    width: '400px',
+    height: 'auto'
   };
 
   return (
