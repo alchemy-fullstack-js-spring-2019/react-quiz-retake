@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Meme component renders the meme 1`] = `
+<Fragment>
+  <TextSelector
+    handleChange={[Function]}
+    name="headerText"
+    text="hard header"
+    value="hard header"
+  />
+  <TextSelector
+    handleChange={[Function]}
+    name="image"
+    text="https://loremflickr.com/320/240/dog"
+    value="https://loremflickr.com/320/240/dog"
+  />
+  <TextSelector
+    handleChange={[Function]}
+    name="footerText"
+    text="hard footer"
+  />
+  <Display
+    footerText="hard footer"
+    headerText="hard header"
+    image="https://loremflickr.com/320/240/dog"
+  />
+</Fragment>
+`;

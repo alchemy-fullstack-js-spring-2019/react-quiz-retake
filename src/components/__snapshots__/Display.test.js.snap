@@ -1,0 +1,15 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Display component renders the display 1`] = `
+<div>
+  <p>
+    hey
+  </p>
+  <img
+    src="image.jpg"
+  />
+  <p>
+    hey
+  </p>
+</div>
+`;
