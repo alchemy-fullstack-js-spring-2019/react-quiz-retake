@@ -3,7 +3,6 @@ import PropTypes from 'prop-types';
 
 function TextSelector({ text, bottomText, image, handleChange }) {
   const imageStyle = {
-    display: 'block',
     height: '250px',
     width: '250px'
   };
