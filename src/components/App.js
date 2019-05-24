@@ -1,12 +1,11 @@
 import React from 'react';
-import TextSelector from './TextSelector';
+import Meme from './Meme';
 
 export default function App() {
   return (
     <>
-    return <h1>You can do this.</h1>
-    <TextSelector />
-    <TextSelector />
+      <h1>You can do this.</h1>
+      <Meme />
     </>
   );
 }

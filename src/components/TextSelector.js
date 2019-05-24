@@ -3,7 +3,7 @@ import PropTypes from 'prop-types';
 
 function TextSelector({ text, handleChange }) {
   return (
-    <input name="text" type="text" value={text} onChange={handleChange} />
+    <input name="headerText" type="text" value={text} onChange={handleChange} />
   );
 }
 
