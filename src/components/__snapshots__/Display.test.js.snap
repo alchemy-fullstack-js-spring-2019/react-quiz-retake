@@ -1,13 +1,25 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Display Component displays stuff! 1`] = `
-<div>
+<div
+  style={
+    Object {
+      "height": "400px",
+      "width": "250px",
+    }
+  }
+>
   <p>
     text
   </p>
   <img
     alt="meme image"
     src="text"
+    style={
+      Object {
+        "height": "200px",
+      }
+    }
   />
   <p>
     text

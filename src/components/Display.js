@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 
 function Display({ headerText, footerText, image }) {
   return (
-    <div>
+    <div style={{ height: '400px', width: '250px' }}>
       <p>{headerText}</p>
-      <img src={image} alt="meme image"></img>
+      <img style={{ height: '200px' }} src={image} alt="meme image"></img>
       <p>{footerText}</p>
     </div>
   )
